@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-06-06 16:41:55
+ * @version $Id$
+ */
+
+#adverImg {
+	position: relative;
+    width: 426px;
+    height: 130px;
+}
+
+#number {position: absolute;right: 5px;bottom: -8px;}
+
+#number li {
+    list-style: none;
+    float: left;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #666;
+    margin-right: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    background: #fff;
+}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-06-01 16:19:41
+ * @version $Id$
+ */
+div,h3,form,table,tr,th{margin: 0;padding: 0;}
+#box{width: 300px;border: 1px #3a6587 solid; margin: 0 auto;}
+#box h3{height: 35px;line-height: 35px;padding-left: 20px;font-size: 16px;background-color: #5d6c87;color: #fff;}
+#box form{margin: 30px 15px;}
+td{padding: 2px;}
+td.right{text-align: right;}
+td input.login{margin-left: 90px;}

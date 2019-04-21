@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-06-07 19:42:42
+ * @version $Id$
+ */
+div,ul,li,a,h1,span{margin: 0;padding: 0;font-size: 12px;}
+li{list-style: none;}
+img{border:0;}
+a{text-decoration: none;color: #333}
+a:hover{text-decoration: underline;}
+
+#header{width: 960px;margin: 0 auto;}
+/*header_top*/
+.header_top{padding:0 10px;  height: 24px;line-height: 24px; background: url(../images/dd_header_bg.gif) repeat-x;border: 1px solid #666;}
+.header_top_left{float: left;}
+.header_top_left a{margin: 0 4px;}
+.header_top_right{float: right}
+.header_top_right li{float: left;}
+.header_top_right li a{margin: 0 4px;}
+.header_top_right li a img{vertical-align: middle;margin:0 5px; }
+
+/*header_middle*/
+.header_middle{overflow: hidden; }
+.header_middle h1{float: left;width: 123px;margin: 16px 8px 0 0;}
+
+.header_middle .menu_left{float: left; width: 510px; margin-top: 35px;}
+.header_middle .menu_left li{float: left;}
+.header_middle .menu_left li.first{height: 28px;width: 4px; background: url(../images/dd_head_bg_left.gif) no-repeat;}
+.header_middle .menu_left li.last{height: 28px;width: 4px;background: url(../images/dd_head_bg_right.gif) no-repeat;}
+.header_middle .menu_left li a{margin: 0 5px;font-weight: 700}
+.header_middle .menu_left li{background: url(../images/dd_head_bg_mid.gif) repeat-x;height: 28px;line-height: 28px;}
+
+.header_middle .menu_right{float: left;width: 285px;margin-top: 35px;}
+.header_middle .menu_right li{float: left;height: 28px;line-height: 28px;text-align: center;margin: 0 2px;}
+.header_middle .menu_right li a{color:#9B2B0F;font-weight: 700;margin: 0 4px;}
+.header_middle .menu_right li.first{width: 52px; background:url(../images/dd_header_1_a.jpg) no-repeat;}
+.header_middle .menu_right li.two{width: 39px; background: url(../images/dd_header_2_a.jpg) no-repeat;}
+.header_middle .menu_right li.three{width: 65px;background: url(../images/dd_header_3_a.jpg) no-repeat;}
+
+/*menu*/
+.menu span.first{float: left;width: 4px;height: 27px;background: url(../images/dd_head_bg_left.gif) no-repeat 0 -31px;}
+.menu .sort{float: left;width: 952px;height: 27px;line-height: 27px;background: url(../images/dd_head_bg_mid.gif) repeat-x 0 -63px; color: #fff;text-align: center;}
+.menu .sort a{color: #fff;margin: 0 3px;}
+.menu span.last{float: left;width: 4px;height: 27px; background: url(../images/dd_head_bg_right.gif) no-repeat 0 -31px;}
+

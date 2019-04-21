@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-21 20:09:48
+ * @version $Id$
+ */
+#nav {
+    width: 230px;
+    background-color: #D7D7D7;
+}
+#nav .title {
+	font-size: 18px;
+	color: #FFF;
+	line-height: 35px;
+    background: #f00 url(../image/arrow-down.gif) no-repeat right center; 
+}
+#nav ul li{
+	line-height: 25px;
+	background:  url(../image/arrow-right.gif) no-repeat 170px 5px;
+}
+#nav ul li a{
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	margin: 0 3px;
+}

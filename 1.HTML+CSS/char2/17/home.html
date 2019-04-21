@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>当当网首页</title>
+<style>
+	div{margin:0;padding: 0;}
+	#header,#main,#footer{width: 960px;border: 1px solid red;margin: 0 auto;}
+	#header{height: 240px;}
+	#main{overflow: hidden;/*height: 300px;*/}
+	#main .leftSide,#main .main,#main .rightSide{float: left; height: 300px;}
+	#main .leftSide{width: 190px;background: green;}
+	#main .main{width: 550px;background: blue;}
+	#main .rightSide{width: 220px;background: yellow;}
+	#footer{height: 80px;}
+</style>
+</head>
+<body>
+    <div id="header">header</div>
+    <div id="main">
+    	<div class="leftSide">leftSide</div>
+    	<div class="main">main</div>
+    	<div class="rightSide">rightSide</div>
+    </div>
+    <div id="footer">footer</div>
+</body>
+</html>
